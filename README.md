@@ -22,6 +22,8 @@ Installation:
 How Does This Work:
 This uses a combination of standard keypresses that are available in Lightroom, plus embedded AppleScript UI Accessibility controls for manipulating sliders in the Develop Module. The "Module Check" node under the "General" tab contains a very important logic structure that keeps track of the UI Acessibility Window data in the Lightroom CC application. This writes a PLIST file to the ControllerMate Helper app directory. This routine ensures that when Lightroom is the active application, ControllerMate has the correct window ID data in order to address the individual sliders.
 
+*** You MUST take the time to learn the ControllerMate application before diving in to make modifications to the layout files. This configuration has been used in a production setting for many years, and there are generally good reasons why things are configured the way they are.
+
 Troubleshooting:
 If the keyboard won't link to Lightroom and control anything, it is likely due to the fact that the system NAME of the application Lightroom has changed.
 
