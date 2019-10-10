@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>left_window_index</key>
+	<integer>9</integer>
+	<key>module</key>
+	<integer>2</integer>
+	<key>right_window_index</key>
+	<integer>7</integer>
+</dict>
+</plist>
