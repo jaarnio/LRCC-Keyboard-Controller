@@ -17,7 +17,8 @@ Installation:
 (3) Give Accessibility permission to the ControllerMate application:
     System Preferences -> Security and Privacy -> Accessibility
     ControllerMate and ControllerMate Helper
-(4) Run Lightroom and test
+(4) Copy the LR_dev_window_index.plist file to "/Library/Application Support/ControllerMate/".  This is the same folder the ControllerMateHelper app is located.
+(5) Run Lightroom and test
 
 How Does This Work:
 This uses a combination of standard keypresses that are available in Lightroom, plus embedded AppleScript UI Accessibility controls for manipulating sliders in the Develop Module. The "Module Check" node under the "General" tab contains a very important logic structure that keeps track of the UI Acessibility Window data in the Lightroom CC application. This writes a PLIST file to the ControllerMate Helper app directory. This routine ensures that when Lightroom is the active application, ControllerMate has the correct window ID data in order to address the individual sliders.
